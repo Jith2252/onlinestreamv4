@@ -9,7 +9,7 @@ class Telegram:
     BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "6896731780:AAHZo6C5u4eS6IouZrcDalM-kV0pW-t7x5g")
     BOT_WORKERS = env.get("BOT_WORKERS", 10)
     CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001870465424))
-    SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 24))
+    SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 8))
 
 class Server:
     BASE_URL = env.get("BASE_URL", "https://tmaadda.info:8443")
